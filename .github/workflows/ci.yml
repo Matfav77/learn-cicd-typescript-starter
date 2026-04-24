@@ -18,5 +18,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Simple version check
-        run: (node --version)
+      - name: Install dependencies
+        run: npm ci
+
+      - run: npm run test
