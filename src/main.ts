@@ -9,9 +9,6 @@ import { handlerUsersCreate, handlerUsersGet } from "./api/users.js";
 import { config } from "./config.js";
 import { db } from "./db/index.js";
 
-function unused() {
-  // Hello, trolling lint
-}
 const __dirname = path.resolve();
 
 if (!config.api.port) {
