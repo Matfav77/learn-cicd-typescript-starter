@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-import process from 'node:process';
+import process from "node:process";
 dotenv.config();
 
 type Config = {
